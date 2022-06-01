@@ -225,7 +225,7 @@ public:
             static_cast<void*>(rhs_source));
       }
     } else if (lhs_comparator) {
-      LOGGER_ERROR("source lhs ONLY");
+      LOGGER_DEBUG("source lhs ONLY");
       lhs_source++;
       LOGGER_DEBUG("advanced source pointer to lhs_source: ",
           static_cast<void*>(lhs_source), " rhs_source: ",
